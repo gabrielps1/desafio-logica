@@ -1,25 +1,28 @@
-# 1️⃣ Desafio Classificador de nível de Herói
+# 🛡️ Projeto: Classificador de Nível de Herói
 
-**O Que deve ser utilizado**
+Este projeto simples em JavaScript tem como objetivo classificar um herói com base na sua experiência (XP). A partir da quantidade de XP informada, o programa define em qual nível o herói se encontra, seguindo uma lógica baseada em faixas de pontuação.
 
-- Variáveis
-- Operadores
-- Estruturas de decisões
+## 🚀 Tecnologias Utilizadas
 
-## Objetivo
+- JavaScript (ES6)
+- Node.js (opcional para testes locais no terminal)
 
-Crie uma variável para armazenar o nome e a quantidade de experiência (XP) de um herói, depois utilize uma estrutura de decisão para apresentar alguma das mensagens abaixo:
+## 📋 Descrição da Lógica
 
-Se XP for menor do que 1.000 = Ferro
-Se XP for entre 1.001 e 2.000 = Bronze
-Se XP for entre 2.001 e 5.000 = Prata
-Se XP for entre 5.001 e 7.000 = Ouro
-Se XP for entre 7.001 e 8.000 = Platina
-Se XP for entre 8.001 e 9.000 = Ascendente
-Se XP for entre 9.001 e 10.000= Imortal
-Se XP for maior ou igual a 10.001 = Radiante
+O programa recebe dois valores principais:
 
-## Saída
+- `nome`: Nome do herói.
+- `xp`: Pontuação de experiência.
 
-Ao final deve se exibir uma mensagem:
-"O Herói de nome **{nome}** está no nível de **{nivel}**"
+Com base no valor de `xp`, o herói será classificado em um dos seguintes níveis:
+
+| XP                   | Nível              |
+|----------------------|--------------------|
+| Menor que 1000       | Ferro              |
+| 1001 - 2000          | Bronze             |
+| 2001 - 5000          | Prata              |
+| 6001 - 7000          | Ouro               |
+| 7001 - 8000          | Platina Diamante   |
+| 8001 - 9000          | Ascendente         |
+| 9001 - 10000         | Imortal            |
+| Maior que 10000      | Radiante           |
